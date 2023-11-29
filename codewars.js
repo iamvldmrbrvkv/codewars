@@ -107,5 +107,9 @@ The middle character(s) of the word represented as a string. */
 
 function getMiddle(s)
 {
-  
+  return s.slice((s.length - 1) / 2, s.length / 2 + 1)
 }
+
+console.log(getMiddle('god'))
+console.log(getMiddle('good'))
+console.log(getMiddle('middle'))
